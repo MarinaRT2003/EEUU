@@ -1,4 +1,4 @@
-const {validateTarget} = require('./validateTarget');
+const {validateTarget} = require('./validador');
 
 test ('validateTarget', () => {
     expect(validateTarget(53, 135)).toBe(true);
